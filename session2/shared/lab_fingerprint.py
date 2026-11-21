@@ -4,4 +4,4 @@ import hashlib
 
 
 def demo_fingerprint():
-    return hashlib.md5(b"session-3-lab").hexdigest()
+    return hashlib.sha256(b"session-3-lab").hexdigest()
